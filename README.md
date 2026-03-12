@@ -6,6 +6,13 @@ While training machine learning models using high-level APIs is straightforward,
 
 This project is a deep dive into the mathematical optimization of **Logistic Regression**. I implemented, tuned, and benchmarked multiple numerical optimization and heuristic algorithms to solve the convex optimization problem of Logistic Regression on a large-scale telecommunications dataset. The core objective was to analyze the trade-offs between computational complexity, convergence speed, and model accuracy.
 
+## **📁 Project Structure**
+
+.  
+├── data\_processed.csv       \# Preprocessed telecommunications dataset ready for modeling  
+├── Optimization.ipynb       \# Main Jupyter Notebook containing all algorithms and benchmarks  
+└── README.md                \# Project documentation
+
 ## **🚀 Optimization Algorithms Implemented**
 
 I systematically explored four distinct optimization paradigms, evolving from classical first/second-order derivatives to evolutionary approaches:
@@ -56,13 +63,6 @@ To rigorously compare the algorithms, I built an automated evaluation pipeline t
 * **Core Computation:** NumPy (Matrix Operations), SciPy (Statistical tools)  
 * **Machine Learning & Baselines:** Scikit-Learn (LogisticRegression, SGDClassifier)  
 * **Data Visualization:** Matplotlib, Seaborn
-
-## **📁 Project Structure**
-
-.  
-├── data\_processed.csv       \# Preprocessed telecommunications dataset ready for modeling  
-├── Optimization.ipynb       \# Main Jupyter Notebook containing all algorithms and benchmarks  
-└── README.md                \# Project documentation
 
 ## **⚙️ Installation & Usage**
 
